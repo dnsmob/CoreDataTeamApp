@@ -1,0 +1,102 @@
+[
+	{
+		"id" : "001",
+		"firstName" : "Elvis",
+		"lastName" : "Presley",
+		"role" : "CEO",
+		"profileImageURL" : "elvis.jpg"
+	},
+	{
+		"teamName" : "iOS",
+		"members" : [
+			{
+				"id" : "002",
+				"firstName" : "Mick",
+				"lastName" : "Jagger",
+				"role" : "iOS Team Lead",
+				"profileImageURL" : "mick.jpg",
+				"teamLead" : true
+			},
+			{
+				"id" : "003",
+				"firstName" : "Keith",
+				"lastName" : "Richards",
+				"role" : "iOS Developer",
+				"profileImageURL" : "keith.jpg"
+			},
+			{
+				"id" : "004",
+				"firstName" : "Charlie",
+				"lastName" : "Watts",
+				"role" : "iOS Developer",
+				"profileImageURL" : "charlie.jpg"
+			},
+			{
+				"id" : "005",
+				"firstName" : "Ronnie",
+				"lastName" : "Woods",
+				"role" : "iOS Developer",
+				"profileImageURL" : "ronnie.jpg"
+			}
+		]
+	},
+	{
+		"teamName" : "Android",
+		"members" : [{
+				"id" : "011",
+				"firstName" : "John",
+				"lastName" : "Lennon",
+				"role" : "Android Team Lead",
+				"profileImageURL" : "john.jpg",
+				"teamLead" : true
+			},
+			{
+				"id" : "012",
+				"firstName" : "Paul",
+				"lastName" : "McCartney",
+				"role" : "Android Developer",
+				"profileImageURL" : "paul.jpg"
+			},
+			{
+				"id" : "013",
+				"firstName" : "George",
+				"lastName" : "Harrison",
+				"role" : "Android Developer",
+				"profileImageURL" : "george.jpg"
+			},
+			{
+				"id" : "014",
+				"firstName" : "Ringo",
+				"lastName" : "Starr",
+				"role" : "Android Developer",
+				"profileImageURL" : "ringo.jpg"
+			}
+		]	
+	},
+	{
+		"teamName" : "Design",
+		"members" : [{
+				"id" : "020",
+				"firstName" : "Kurt",
+				"lastName" : "Cobain",
+				"role" : "Design Team Lead",
+				"profileImageURL" : "kurt.jpg",
+				"teamLead" : true
+			},
+			{
+				"id" : "021",
+				"firstName" : "Krist",
+				"lastName" : "Novoselic",
+				"role" : "Designer",
+				"profileImageURL" : "krist.jpg"
+			},
+			{
+				"id" : "022",
+				"firstName" : "Dave",
+				"lastName" : "Grohl",
+				"role" : "Designer",
+				"profileImageURL" : "dave.jpg"
+			}
+		]	
+	}
+]

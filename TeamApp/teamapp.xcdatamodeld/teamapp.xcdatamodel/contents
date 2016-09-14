@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G1004" minimumToolsVersion="Automatic">
+    <entity name="Everybody" representedClassName=".Person" syncable="YES">
+        <attribute name="firstName" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" syncable="YES"/>
+        <attribute name="profileImageData" optional="YES" attributeType="Binary" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="profileImageURL" attributeType="String" syncable="YES"/>
+        <attribute name="role" attributeType="String" syncable="YES"/>
+        <attribute name="teamLead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="team" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Teams" inverseName="everybody" inverseEntity="Teams" syncable="YES"/>
+    </entity>
+    <entity name="Teams" representedClassName=".Team" syncable="YES">
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="everybody" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Everybody" inverseName="team" inverseEntity="Everybody" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Everybody" positionX="-72" positionY="45" width="128" height="163"/>
+        <element name="Teams" positionX="261" positionY="252" width="128" height="88"/>
+    </elements>
+</model>
