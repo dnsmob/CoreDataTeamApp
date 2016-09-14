@@ -4,7 +4,7 @@
 		"firstName" : "Elvis",
 		"lastName" : "Presley",
 		"role" : "CEO",
-		"profileImageURL" : "elvis.jpg"
+		"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/elvis.jpg"
 	},
 	{
 		"teamName" : "iOS",
@@ -14,7 +14,7 @@
 				"firstName" : "Mick",
 				"lastName" : "Jagger",
 				"role" : "iOS Team Lead",
-				"profileImageURL" : "mick.jpg",
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/mick.jpg",
 				"teamLead" : true
 			},
 			{
@@ -22,21 +22,21 @@
 				"firstName" : "Keith",
 				"lastName" : "Richards",
 				"role" : "iOS Developer",
-				"profileImageURL" : "keith.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/keith.jpg"
 			},
 			{
 				"id" : "004",
 				"firstName" : "Charlie",
 				"lastName" : "Watts",
 				"role" : "iOS Developer",
-				"profileImageURL" : "charlie.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/charlie.jpg"
 			},
 			{
 				"id" : "005",
 				"firstName" : "Ronnie",
 				"lastName" : "Woods",
 				"role" : "iOS Developer",
-				"profileImageURL" : "ronnie.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/ronnie.jpg"
 			}
 		]
 	},
@@ -47,7 +47,7 @@
 				"firstName" : "John",
 				"lastName" : "Lennon",
 				"role" : "Android Team Lead",
-				"profileImageURL" : "john.jpg",
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/john.jpg",
 				"teamLead" : true
 			},
 			{
@@ -55,21 +55,21 @@
 				"firstName" : "Paul",
 				"lastName" : "McCartney",
 				"role" : "Android Developer",
-				"profileImageURL" : "paul.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/paul.jpg"
 			},
 			{
 				"id" : "013",
 				"firstName" : "George",
 				"lastName" : "Harrison",
 				"role" : "Android Developer",
-				"profileImageURL" : "george.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/george.jpg"
 			},
 			{
 				"id" : "014",
 				"firstName" : "Ringo",
 				"lastName" : "Starr",
 				"role" : "Android Developer",
-				"profileImageURL" : "ringo.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/ringo.jpg"
 			}
 		]	
 	},
@@ -80,7 +80,7 @@
 				"firstName" : "Kurt",
 				"lastName" : "Cobain",
 				"role" : "Design Team Lead",
-				"profileImageURL" : "kurt.jpg",
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/kurt.jpg",
 				"teamLead" : true
 			},
 			{
@@ -88,14 +88,14 @@
 				"firstName" : "Krist",
 				"lastName" : "Novoselic",
 				"role" : "Designer",
-				"profileImageURL" : "krist.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/krist.jpg"
 			},
 			{
 				"id" : "022",
 				"firstName" : "Dave",
 				"lastName" : "Grohl",
 				"role" : "Designer",
-				"profileImageURL" : "dave.jpg"
+				"profileImageURL" : "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/dave.jpg"
 			}
 		]	
 	}

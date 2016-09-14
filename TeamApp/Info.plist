@@ -28,7 +28,7 @@
 		<false/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>developers.mub.lu</key>
+			<key>raw.githubusercontent.com</key>
 			<dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>

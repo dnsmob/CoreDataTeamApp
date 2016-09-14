@@ -24,7 +24,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 		}
 		
 		// fetch json
-		task = DownloadTask(url: "team.json")
+		task = DownloadTask(url: "https://raw.githubusercontent.com/dnsmob/CoreDataTeamApp/master/assets/team.json")
 		task?.onLoadComplete.listen(self, callback: { data in
 			
 			let everybody = JsonParser.getNames(data)
