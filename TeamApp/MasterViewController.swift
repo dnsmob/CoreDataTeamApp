@@ -156,6 +156,9 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 			if results.count > 0 {
 				// found an entry, will reset row
 				item = results.first!
+				if item.profileImageURL != profileImageURL {
+					item.profileImageData = nil
+				}
 			}
 			else {
 				// insert new row
